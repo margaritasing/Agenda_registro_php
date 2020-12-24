@@ -1,0 +1,185 @@
+header {
+    margin-top: 1px;
+}
+
+h1 {
+    font-size: calc(30px);
+    line-height: calc(10px + 10);
+    text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+    color: #fff6a9;
+    font-family: "arial", cursive;
+    text-align: center;
+    animation: blink 12s infinite;
+    -webkit-animation: blink 12s infinite;
+}
+
+@-webkit-keyframes blink {
+    20%,
+    24%,
+    55% {
+        color: #111;
+        text-shadow: none;
+    }
+    0%,
+    19%,
+    21%,
+    23%,
+    25%,
+    54%,
+    56%,
+    100% {
+        text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+        color: #fff6a9;
+    }
+}
+
+@keyframes blink {
+    20%,
+    24%,
+    55% {
+        color: #111;
+        text-shadow: none;
+    }
+    0%,
+    19%,
+    21%,
+    23%,
+    25%,
+    54%,
+    56%,
+    100% {
+        text-shadow: 0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ff0000, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+        color: #fff6a9;
+    }
+}
+
+h2 {
+    color: #ffffff;
+    text-align: center;
+}
+
+body {
+    background-image: url(fondo.jpg);
+    background-size: 1390px 700px;
+}
+
+a:-webkit-any-link {
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    width: 100px;
+    margin: 46px;
+    margin-top: 40px;
+    border: color white 3px;
+}
+
+button {
+    font-size: 20px;
+    background-color: #5F5654;
+    box-shadow: 50px 13px 37px #000;
+    color: #fff;
+    width: 100px;
+    margin: 46px;
+    margin-top: 40px;
+    border: color white 3px;
+}
+
+form {
+    box-shadow: 10px 13px 37px #000;
+    padding: 50px 20px;
+    margin: calc(25% + 90px);
+    margin-top: 0px;
+    padding-top: 28px;
+    margin-bottom: 30px
+}
+
+input {
+    background-color: transparent;
+    width: calc(100% - 20px);
+    padding: 9px;
+    margin: auto;
+    margin-top: 12px;
+    font-size: 16px;
+}
+
+input[type='submit'] {
+    background-color: #3B3737;
+    box-shadow: 10px 13px 37px #000;
+    color: #fff;
+    width: calc(50% - 20px);
+    margin: 0 30%;
+    margin-top: 30px;
+    border: color white 3px;
+}
+
+#contacto>form>input {
+    font-size: 20px;
+    color: white;
+}
+
+h3 {
+    display: block;
+    text-align: center;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+body>div>div {
+    font-style: color: white;
+    background-color: transparent;
+    width: calc(100% - 20px);
+    padding: 9px;
+    margin: auto;
+    margin-top: 12px;
+    font-size: 16px;
+}
+
+body>div>div:nth-child(2)>table>tbody>tr:nth-child(1) {
+    color: white;
+}
+
+#placeholder {
+    color: white;
+}
+
+#dominio,
+#vehiculo,
+#nombre,
+#tel {
+    color: white;
+}
+
+body>div>div:nth-child(2)>table>tbody {
+    color: white;
+}
+
+body>div>div:nth-child(2) {
+    color: white;
+    text-align: center;
+}
+
+body>div>div:nth-child(2)>table {
+    width: calc(80% - 20px);
+    margin-left: 110px;
+}
+
+#usuario {
+    background-color: transparent;
+    width: calc(100% - 20px);
+    padding: 9px;
+    margin: auto;
+    margin-top: 12px;
+    font-size: 16px;
+}
+
+body>h2 {
+    color: red;
+}
+
+#placeholder {
+    color: whitesmoke;
+}
