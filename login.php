@@ -48,7 +48,7 @@ session_start();
       <input type="submit" value="Entrar" class="btn btn-success" name="btn1">
     
      <br><br>
-      <a href="registrarse.php">REGISTRARSE</a>
+      <a href="index.php">REGISTRARSE</a>
       </center>
   </form>
 
